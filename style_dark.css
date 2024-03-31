@@ -1,0 +1,48 @@
+.roboto-slab-title-font {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.links{
+    text-decoration: none;
+    color:#a1a1a1;
+    transition: all 0.3s ease;
+}
+
+.links:hover{
+    font-size: 1.2em; 
+}
+
+.name-div {
+    font:ubuntu-mono-bold;
+    position: absolute;
+    top: 40%; /* Adjust this value to change the distance from the top */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10vh;
+}
+
+.project-content {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 20vw;
+    height: 40vh;
+    padding-bottom: 0%;
+  }
+
+body {
+    background-color: #121212; /* Set your desired background color here */
+  }
+
+p{
+    color: #a1a1a1;
+}
