@@ -22,6 +22,14 @@
     font-size: 1.2em; 
 }
 
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
 .name-div {
     font:ubuntu-mono-bold;
     position: absolute;
@@ -32,12 +40,19 @@
 }
 
 .project-content {
-    border: 1px solid #ccc;
+    border: 2px solid  #a1a1a1;
+    border-radius: 30px;
     overflow: hidden;
     width: 20vw;
     height: 40vh;
     padding-bottom: 0%;
+    transition: transform .2s;
   }
+.project-content:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
 
 body {
     background-color: #121212; /* Set your desired background color here */
