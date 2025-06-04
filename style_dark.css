@@ -27,7 +27,11 @@
 }
     
 .grow:hover { 
+<<<<<<< HEAD
     transform: scale(1); 
+=======
+    transform: scale(1.1); 
+>>>>>>> 95ff50f19ac8ba063bad5917e98a0677e5fd2e3b
 }
 
 .name-div {
